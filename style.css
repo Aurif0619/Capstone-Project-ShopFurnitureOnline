@@ -1,10 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
 
-.search-icon{
-   background-color: #E9ECEF;
+.search-icon {
+    background-color: #E9ECEF;
+}
+
+.home-section h1 {
+    font-size: 55px !important;
+}
+
+.interior-img-1 img{
+   width: 50% !important;
+}
+
+.interior-img-1{
+  width: 50%  !important;
 }
