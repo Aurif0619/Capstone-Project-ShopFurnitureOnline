@@ -10,11 +10,82 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
 </head>
 
 <body>
-    <h1>Sign Up</h1>
-    <a href="/login.html">Login</a>
+    <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="row w-100">
+                <div class="col-md-5 col-12 d-flex flex-column justify-content-center p-5">
+                    <div class="mx-auto w-100">
+                        <div class="mb-3 text-start">
+                            <span class="iconify" data-icon="fluent-emoji-flat:shopping-cart"
+                                style="font-size: 50px;"></span>
+                            <div class="d-flex py-2">
+                                <div>
+                                    <span class="fs-4 btn btn-danger rounded-5">
+                                        <iconify-icon icon="ph:shopping-cart-simple" noobserver></iconify-icon>
+                                    </span>
+                                </div>
+                                <div>
+                                    <h3 class="mt-2 ps-2">Cartzilla</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="fw-bold">Welcome back</h3>
+                        <p class="mb-4 fs-sm">Don't have an account? <a href="./login.html">Already have an account</a>
+                        </p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fs-sm">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label fs-sm">Password</label>
+                                <div class="input-group">
+                                    <input type="password" class="form-control" id="password"
+                                        placeholder="Enter your password">
+                                    <span class="input-group-text">
+                                        <iconify-icon icon="mdi:eye" noobserver></iconify-icon>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                                    <label class="form-check-label fs-sm" for="rememberMe">Remember for 30 days</label>
+                                </div>
+                                <a href="#" class="text-muted fs-sm">Forgot password?</a>
+                            </div>
+                            <button type="submit" class="btn btn-danger w-100">Sign In</button>
+                        </form>
+
+                        <p class="text-center mt-3 fs-sm">or continue with</p>
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-outline-secondary w-100 me-1">
+                                <span class="iconify" data-icon="flat-color-icons:google"
+                                    style="font-size: 20px;"></span> Google
+                            </button>
+                            <button class="btn btn-outline-secondary w-100 me-1">
+                                <span class="iconify" data-icon="ic:baseline-facebook" style="font-size: 20px;"></span>
+                                Facebook
+                            </button>
+                            <button class="btn btn-outline-secondary w-100">
+                                <span class="iconify" data-icon="logos:apple" style="font-size: 20px;"></span> Apple
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7" style="background-color: #99c9f0;">
+                    <img src="./imgs/Girl.png" class="img-fluid" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="/scrip.js"></script>
 </body>
 

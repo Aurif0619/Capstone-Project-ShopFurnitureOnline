@@ -48,7 +48,7 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body ms-5 ps-5">
-                    <ul class="navbar-nav me-auto mb-lg-0 ms-5 ps-2 ps-5">
+                    <ul class="navbar-nav me-auto mb-lg-0 ps-2 ps-5">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle fw-bold ms-2 mt-1" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -105,13 +105,11 @@
                                 <li><a class="dropdown-item" href="./signup.html">Sign Up</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bold ms-2 mt-1" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link  fw-bold ms-2 mt-1" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Pages
                             </a>
-                            <ul class="dropdown-menu">
-                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fw-bold ms-2 mt-1" href="# ">Docs</a>
@@ -120,16 +118,18 @@
                             <a class="nav-link fw-bold ms-2 mt-1" href="#">Components</a>
                         </li>
                     </ul>
-                    <span class="header-icon me-3 fs-3 mt-2">
-                        <iconify-icon icon="bitcoin-icons:sun-outline" noobserver></iconify-icon>
-                    </span>
-                    <span class="header-icon ps-3 fs-3 mt-2">
-                        <iconify-icon icon="ph:shopping-cart-simple" noobserver></iconify-icon>
-                    </span>
-                    <span
-                        class="rounded-circle bg-tertiary d-flex align-items-center justify-content-center ms-3 fs-5 p-3 bg-white">
-                        <iconify-icon icon="iconamoon:search-thin" noobserver></iconify-icon>
-                    </span>
+                    <div class="mt-2">
+                        <span class="header-icon me-3 fs-3 mt-2">
+                            <iconify-icon icon="bitcoin-icons:sun-outline" noobserver></iconify-icon>
+                        </span>
+                        <span class="header-icon ps-3 fs-3 mt-2">
+                            <iconify-icon icon="ph:shopping-cart-simple" noobserver></iconify-icon>
+                        </span>
+
+                        <span class="rounded-circle bg-tertiary justify-content-center ms-3 fs-5 p-3 bg-white">
+                            <iconify-icon icon="iconamoon:search-thin" noobserver></iconify-icon>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -298,8 +298,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Interior design and inspiration -->
     <div class="py-4">
         <div class="ms-5">
             <h3 class="fw-bolder">Interior design and inspiration</h1>
@@ -315,30 +313,31 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-4">
+        <div class="mx-5 mt-4">
             <div class="row">
                 <div class="col-md-6">
                     <div class="row">
-                        <div>
-                            <img class="img-fluid rounded-5" src="./imgs/2.jpg" alt="">
+                        <div class="col-12 mb-3">
+                            <img class="img-fluid rounded-5 w-100" src="./imgs/2.jpg" alt="">
                         </div>
-                        <div>
-                            <img class="img-fluid rounded-5 w-100 mt-3" src="./imgs/1.jpg" alt="">
+                        <div class="col-12">
+                            <img class="img-fluid rounded-5 w-100" src="./imgs/1.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="mb-2">
-                            <img class="img-fluid rounded-5 w-100 h-100 mt-3" src="./imgs/3.jpg" alt="">
+                        <div class="col-12 mb-3">
+                            <img class="img-fluid rounded-5 w-100 h-100" src="./imgs/3.jpg" alt="">
                         </div>
-                        <div>
-                            <img class="img-fluid rounded-5 mt-2 mt-4" src="./imgs/4.jpg" alt="">
+                        <div class="col-12">
+                            <img class="img-fluid rounded-5 w-100" src="./imgs/4.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 
     <!-- leaves section -->
@@ -396,39 +395,47 @@
 
 
     <!-- Blog section -->
-    <div class="my-5 mx-5">
-        <h3 class="ms-3 my-4">Blog and news</h3>
-        <div class="d-flex">
-            <diV>
-                <img class="rounded-5 w-100 pe-2" src="./imgs/blog-img.jpg" alt="">
-                <div class="mt-2 ms-1">
-                    <span class="text-uppercase ms-1 fs-6">Interior Design</span>
+    <div class="mx-5 my-5">
+        <h3 class="ms-3 my-4">Blog and News</h3>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4">
+                <img class="rounded-5 w-100" src="./imgs/blog-img.jpg" alt="">
+                <div class="mt-2">
+                    <span class="text-uppercase fs-6 ms">Interior Design</span>
                     <p class="mt-1 fw-bolder">Transform your living space with these chin Interior design tips</p>
                     <span>Ava Johnson | September 11, 2024</span>
-
                 </div>
             </div>
-            <div class="ms-3 d-flex">
-                <div>
-                    <img class="w-100 h-50 rounded-4" src="./imgs/blog-img-2.jpg" alt="">
-                    <div class="mt-3 ms-1">
-                        <span class="text-uppercase ms-1 fs-6">Interior Design</span>
-                        <p class="mt-2 fw-bolder">Transform your living space with these chin Interior design tips</p>
-                        <span>Ethan Miler | September 5, 2024</span>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="row">
+                    <div class="col-md-6 col-12 mb-4">
+                        <div class="ratio ratio-1x1">
+                            <img class="img-fluid rounded-4" src="./imgs/blog-img-2.jpg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <span class="text-uppercase fs-6">Interior Design</span>
+                            <p class="mt-2 fw-bolder">Transform your living space with these chin Interior design tips
+                            </p>
+                            <span>Ethan Miler | September 5, 2024</span>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img class="w-100 h-50 rounded-4 ms-3" src="./imgs/blog-img-3.jpg" alt="">
-                    <div class="mt-3 ms-2">
-                        <span class="text-uppercase ms-3 fs-6">Furniture</span>
-                        <p class="mt-2 ms-3 fw-bolder">Transform your living space with these chin Interior design tips
-                        </p>
-                        <span class="ms-3">Ethan Miler | September 5, 2024</span>
+                    <div class="col-md-6 col-12">
+                        <div class="ratio ratio-1x1">
+                            <img class="img-fluid rounded-4" src="./imgs/blog-img-3.jpg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <span class="text-uppercase fs-6">Furniture</span>
+                            <p class="mt-2 fw-bolder">Transform your living space with these chin Interior design tips
+                            </p>
+                            <span>Ethan Miler | September 5, 2024</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Footer Section -->
     <footer class="bg-dark text-white py-5">
@@ -487,7 +494,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="./script.js"></script>
 </body>
 
