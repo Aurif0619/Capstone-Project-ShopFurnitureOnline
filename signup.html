@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+    <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center bg-body-secondary">
         <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
             <div class="row w-100">
                 <div class="col-md-5 col-12 d-flex flex-column justify-content-center p-5">
@@ -33,21 +33,17 @@
                                 </div>
                             </div>
                         </div>
-
-                        <h3 class="fw-bold">Welcome back</h3>
-                        <p class="mb-4 fs-sm">Don't have an account? <a href="./login.html">Already have an account</a>
-                        </p>
-                        <form>
+                        <h3 class="fw-bold">Welcome</h3>
+                        <p class="mb-4 fs-sm"> Create an account <a href="./login.html">Sign in </a></p>
+                        <form class="signUpForm">
                             <div class="mb-3">
-                                <label for="email" class="form-label fs-sm">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
-
+                                <label for="userEmail" class="form-label fs-sm">Email</label>
+                                <input type="email" class="form-control" id="userEmail" placeholder="Enter your email">
                             </div>
                             <div class="mb-3">
-                                <label for="password" class="form-label fs-sm">Password</label>
+                                <label for="user-password" class="form-label fs-sm">Password</label>
                                 <div class="input-group">
-                                    <input type="password" class="form-control" id="password"
-                                        placeholder="Enter your password">
+                                    <input type="password" class="form-control" id="user-password" placeholder="Enter your password">
                                     <span class="input-group-text">
                                         <iconify-icon icon="mdi:eye" noobserver></iconify-icon>
                                     </span>
@@ -60,33 +56,34 @@
                                 </div>
                                 <a href="#" class="text-muted fs-sm">Forgot password?</a>
                             </div>
-                            <button type="submit" class="btn btn-danger w-100">Sign In</button>
+                            <button type="submit" class="btn btn-danger w-100">Sign Up</button>
                         </form>
+                        
 
                         <p class="text-center mt-3 fs-sm">or continue with</p>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-outline-secondary w-100 me-1">
-                                <span class="iconify" data-icon="flat-color-icons:google"
-                                    style="font-size: 20px;"></span> Google
+                                <span class="iconify" data-icon="flat-color-icons:google"> Google</span>
                             </button>
                             <button class="btn btn-outline-secondary w-100 me-1">
-                                <span class="iconify" data-icon="ic:baseline-facebook" style="font-size: 20px;"></span>
-                                Facebook
+                                <span class="iconify" data-icon="ic:baseline-facebook"> Facebook</span>
+                               
                             </button>
                             <button class="btn btn-outline-secondary w-100">
-                                <span class="iconify" data-icon="logos:apple" style="font-size: 20px;"></span> Apple
+                                <span class="iconify" data-icon="logos:apple">  Apple</span>
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7" style="background-color: #99c9f0;">
+                <div class="col-md-7 rounded-5"  
+                style="background-color: #99c9f0;">
                     <img src="./imgs/Girl.png" class="img-fluid" alt="Image">
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="/scrip.js"></script>
+    <script src="./signup.js"></script>
 </body>
 
 </html>
