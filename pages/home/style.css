@@ -10,6 +10,11 @@
 body {
     overflow-x: hidden;
 }
+.brand-style {
+    background: linear-gradient(90deg, #ff6f61, #ffcc00, #20b2aa, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .home-section h1 {
     font-size: 33px !important;
@@ -18,7 +23,6 @@ body {
 ::placeholder {
     color: #fff !important;
 }
- 
 
 .search-icon {
     background-color: #E9ECEF;
@@ -27,14 +31,15 @@ body {
 .home-section h1 {
     font-size: 55px !important;
 }
-.large-bed-pic{
+
+.large-bed-pic {
     width: 90%;
 }
 
-.pilo{
+.pilo {
     height: 710px !important;
 }
 
-.lamp img{
-   height: 502px !important;
+.lamp img {
+    height: 502px !important;
 }

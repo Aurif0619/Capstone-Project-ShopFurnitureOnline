@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (itemIndex > -1) {
             alert("You have already added this item to the cart.");
         } else {
+            
             cart.push({ id, name, price: parsedPrice, quantity: 1 });
             console.log(`Added ${name} to cart`);
         }

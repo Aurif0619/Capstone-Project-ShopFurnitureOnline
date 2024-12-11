@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                             <div class="d-flex py-2">
                                 <div>
                                     <span class="fs-4 btn btn-danger rounded-5">
-                                        <iconify-icon icon="ph:shopping-cart-simple" noobserver></iconify-icon>
+                                <a href="/pages/home/index.html" class="text-white"><iconify-icon icon="ph:shopping-cart-simple" noobserver></iconify-icon></a>   
                                     </span>
                                 </div>
                                 <div>
@@ -33,18 +33,17 @@
                                 </div>
                             </div>
                         </div>
-
-                        <h3 class="fw-bold">Welcome back</h3>
-                        <p class="mb-4 fs-sm">Already have an account <a href="./signup.html"> Create an account</a></p>
-                        <form class="signForm">
+                        <h3 class="fw-bold">Welcome</h3>
+                        <p class="mb-4 fs-sm"> Already have an account <a href="/pages//signUp//signup.html" class="text-decoration-none">Sign in </a></p>
+                        <form class="signUpForm">
                             <div class="mb-3">
-                                <label for="email" class="form-label fs-sm">Email</label>
-                                <input type="email" class="form-control" id="userEmail" placeholder="Enter your email">
+                                <label for="userEmail" class="form-label fs-sm shadow-none">Email</label>
+                                <input type="email" class="form-control shadow-none" id="userEmail" placeholder="Enter your email">
                             </div>
                             <div class="mb-3">
-                                <label for="password" class="form-label fs-sm">Password</label>
+                                <label for="user-password" class="form-label fs-sm">Password</label>
                                 <div class="input-group">
-                                    <input type="password" class="form-control" id="user-password" placeholder="Enter your password">
+                                    <input type="password" class="form-control shadow-none" id="user-password" placeholder="Enter your password">
                                     <span class="input-group-text">
                                         <iconify-icon icon="mdi:eye" noobserver></iconify-icon>
                                     </span>
@@ -55,37 +54,36 @@
                                     <input type="checkbox" class="form-check-input" id="rememberMe">
                                     <label class="form-check-label fs-sm" for="rememberMe">Remember for 30 days</label>
                                 </div>
-                                <a href="#" class="text-muted fs-sm">Forgot password?</a>
+                                <a href="#" class="text-muted fs-sm text-decoration-none">Forgot Password?</a>
                             </div>
-                            <button type="submit" class="btn btn-danger w-100">Sign In</button>
+                            <button type="submit" class="btn btn-danger w-100">Sign Up</button>
                         </form>
                         
 
                         <p class="text-center mt-3 fs-sm">or continue with</p>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-outline-secondary w-100 me-1">
-                                <span class="iconify" data-icon="flat-color-icons:google"
-                                    style="font-size: 20px;"></span> Google
+                                <span class="iconify" data-icon="flat-color-icons:google"> Google</span>
                             </button>
                             <button class="btn btn-outline-secondary w-100 me-1">
-                                <span class="iconify" data-icon="ic:baseline-facebook" style="font-size: 20px;"></span>
-                                Facebook
+                                <span class="iconify" data-icon="ic:baseline-facebook"> Facebook</span>
+                               
                             </button>
                             <button class="btn btn-outline-secondary w-100">
-                                <span class="iconify" data-icon="logos:apple" style="font-size: 20px;"></span> Apple
+                                <span class="iconify" data-icon="logos:apple">  Apple</span>
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7 rounded-5"
-                 style="background-color: #99c9f0;">
-                    <img src="./imgs/Girl.png" class="img-fluid" alt="Image">
+                <div class="col-md-7 rounded-5"  
+                style="background-color: #99c9f0;">
+                    <img src="/imgs/Girl.png" class="img-fluid" alt="Image">
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="/login.js"></script>
+    <script src="./signup.js"></script>
 </body>
 
 </html>
